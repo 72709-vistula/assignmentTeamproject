@@ -26,6 +26,8 @@ public class CrudWithVaadinApplication {
 			repository.save(new Customer("Kim", "Bauer"));
 			repository.save(new Customer("David", "Palmer"));
 			repository.save(new Customer("Michelle", "Dessler"));
+			// add Kyrylo Yun
+			repository.save(new Customer("Kyrylo", "Yun"));
 
 			// fetch all customers
 			log.info("Customers found with findAll():");
